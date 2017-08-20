@@ -1,0 +1,32 @@
+{
+  "name": "startup-template",
+  "authors": [
+    "Ivo Zinenda <izinenda@izitag.site>"
+  ],
+  "description": "A one page website for startups designed by IZItag",
+  "main": "",
+  "keywords": [
+    "quem",
+    "somos",
+    "servicos",
+    "precos",
+    "portfolio",
+    "contactos",
+    "localizacao"
+  ],
+  "license": "MIT",
+  "homepage": "http://izitag.site/",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "materialize": "^0.100.1",
+    "font-awesome": "^4.7.0",
+    "bigtext": "^1.0.1"
+  }
+}
