@@ -86,9 +86,30 @@ footer {
     color: $secondary-color;
 }
 
+.page-header {
+    background: {
+        image: url(assets/img/parallax/first_parallax.jpg);
+        size: cover;
+        repeat: no-repeat;
+        position: center;
+        attachment: fixed;
+    }
+
+    height: 100vh;
+
+    .page-title {
+        h1,
+        h2 {
+            text-transform: uppercase;
+            text-shadow: 2px -2px #444;
+        }
+    }
+}
+
+
 // IMPORTED
 @import 
     "animate-bottom",
     "materialize/materialize",
-    "custom_font"
+    "font-awesome/font-awesome"
 ;

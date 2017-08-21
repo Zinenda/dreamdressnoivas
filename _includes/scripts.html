@@ -1,16 +1,9 @@
-{% include web_font_loader.html %}
 <script src="/assets/js/jquery.min.js" defer></script>
 <script src="/assets/js/materialize.min.js" defer></script>
 <script src="/assets/js/main.min.js" defer></script>
 
 {% include ga.html %}
 
-{% if page.layout == "post" %}
-    {% include sumo.html %}
-    {% elsif page.title == "Blogue" %}
-        {% include sumo.html %}
-{% endif %}
-
-{% if page.layout != "post" %}
-    {% include jivochat.html %}
-{% endif %}
+<script>
+    $('#bigtext').bigtext();
+</script>

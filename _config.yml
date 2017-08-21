@@ -15,11 +15,9 @@
 # in the templates via {{ site.myvariable }}.
 
 
-title: StartUp-Template
+title: StartUp
 email: info@izitag.site
-description: "StartUp é um pacote para de websites criado para empresas
- iniciantes que não podem investir massas de dinheiro para websites dinâmicos, 
- todavia querem ter presença online"
+description: "Modelo de websites do Pacote StartUP da IZItag"
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 author: Ivo Zinenda
 
@@ -32,7 +30,6 @@ plugins:
   - jekyll-sitemap
   - hawkins
   - jekyll-autolink_email
-  - uglifier
 
 analytics: UA-81555401-1
 
