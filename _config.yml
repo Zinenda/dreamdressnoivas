@@ -44,13 +44,13 @@ sass:
 img_dir: /assets/img
 js_dir: /assets/js
 
-image: 
-logo:
+image: /assets/img/logotype.svg
+logo: /assets/img/logo.svg
 
-first_parallax:
-second_parallax:
-thirth_parallax:
+first_parallax: /assets/img/first_parallax.jpg
+second_parallax: /assets/img/second_parallax.jpg
+thirth_parallax: /assets/img/thirth_parallax.jpg
 
-first_title: ""
-second_title: ""
-thirth_title: ""
+first_title: "Quem Somos"
+second_title: "Serviços"
+thirth_title: "Portfólio"
