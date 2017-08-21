@@ -1,0 +1,13 @@
+<aside id="sideNav" class="side-nav">
+    <ul>
+        {% for item in site.data.nav %}
+            <li {% if item.link == page.url %} class="active" {% endif %}>
+                <a href="{{ item.link }}" title="{{ item.name }}" class="waves-effect waves-red">{{ item.name }}</a>
+            </li>
+        {% endfor %}
+        <li class="divider"></li>
+        {% for item in site.data.dropdown %}
+            <li><a href="{{ item.link }}" title="{{ item.name }}" class="waves-effect waves-red">{{ item.name }}</a></li>
+        {% endfor %}
+    </ul>
+</aside>

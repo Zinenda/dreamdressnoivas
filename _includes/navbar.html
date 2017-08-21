@@ -1,0 +1,24 @@
+<div class="navbar-fixed">
+    <nav class="nav-extended">
+        <div class="nav-wrapper">
+            <div class="container">
+                <a href="/" title="{{ site.title }}" class="brand-logo">{{ site.title }}</a>
+                <a href="#" data-activates="sideNav" class="button-collapse"><svg class="icon-bars"><use xlink:href="#icon-bars"></use></svg></a>
+
+                <ul class="right hide-on-med-and-down">
+                    {% for item in site.data.nav %}
+                        <li {% if item.link == page.url %} class="active" {% endif %}>
+                            <a href="{{ item.link }}" title="{{ item.name }}" class="waves-effect waves-light {% if item.dropdown %}dropdown-button{% endif %} {% if item.highlight %}btn-large{% endif %}" {% if item.dropdown %}data-activates="portfolio"{% endif %}>{{ item.name }}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+
+                <ul id="portfolio" class="dropdown-content">
+                    {% for item in site.data.dropdown %}
+                        <li><a href="{{ item.link }}" title="{{ item.name }}" class="waves-effect">{{ item.name }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>

@@ -1,0 +1,32 @@
+<div class="icon-block center">
+    <i class="fa fa-5x fa-envelope"></i>
+</div>
+
+<h4 class="center">Contacte-nos</h4>
+<hr><br>
+        
+<div class="row">
+    <form method="POST" action="http://formspree.io/{{ site.email }}" class="col s12">
+        <div class="row">
+            <div class="input-field col s12">
+                <input id="first_name" type="text" class="validate">
+                <label for="first_name">Nome Completo</label>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="input-field col s12">
+                <input id="email" type="email" class="validate">
+                <label for="email">Email</label>
+            </div>
+        </div>                
+
+        <div class="row">
+            <div class="input-field col s12">
+                <textarea id="textarea1" class="materialize-textarea" length="500"></textarea>
+                <label for="textarea1">Mensagem</label>
+            </div>
+        </div>
+        <div class="center"><input type="submit" name="" value="Enviar" class="btn-large waves-effect waves-light"></div>
+    </form>
+</div>
