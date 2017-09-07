@@ -1,4 +1,4 @@
-<section id="opnioes" class="section scrollspy">
+<section id="opnioes" class="section scrollspy grey lighten-4">
     <div class="container">
         <div class="center">
             <i class="fa fa-5x fa-commenting"></i>
@@ -7,10 +7,10 @@
             <div class="row">
                 {% for opinian in site.data.opiniao %}
                     <div class="col s12 l4">
-                        <p>{{ opinian.opiniao }}</p>
-                        <p class="flow-text">{{ opinian.nome }}</p>
-                        <p class="flow-text">{{ opinian.cargo }}</p>
-                        <p class="flow-text"><a href="{{ opinian.site }}" title="{{ opinian.empresa }}">{{ opinian.empresa }}</a></p>
+                        <div class="card-panel primary-color">
+                            <p class="oblique">{{ opinian.nome }} <br> {{ opinian.cargo }} da <a href="{{ opinian.site }}" title="{{ opinian.empresa }}">{{ opinian.empresa }}</a></p>
+                            <p class="light">{{ opinian.opiniao }}</p>
+                        </div>
                     </div>
                 {% endfor %}
             </div>
