@@ -1,15 +1,20 @@
+- link: "#sobre"
+  name: Conheça-nos
+  icon: user
+
+- link: "#servicos"
+  name: Serviços
+  icon: tasks
 
 - link: "#portfolio"
   name: Portfólio
-  dropdown: true
+  icon: folder
 
-- link: "#sobre"
-  name: Conheça-nos
-
-- link: /blog/
-  name: Blogue
+- link: "#opinioes"
+  name: Opniões
+  icon: comment
 
 - link: "mailto:info@izitag.site"
   name: Contacte-nos
+  icon: envelope
   highlight: true
-

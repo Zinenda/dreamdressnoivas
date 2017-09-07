@@ -3,22 +3,18 @@
         <div class="nav-wrapper">
             <div class="container">
                 <a href="/" title="{{ site.title }}" class="brand-logo">{{ site.title }}</a>
-                <a href="#" data-activates="sideNav" class="button-collapse"><svg class="icon-bars"><use xlink:href="#icon-bars"></use></svg></a>
+                <a href="#" data-activates="sideNav" class="button-collapse"><i class="fa fa-2x fa-navicon"></i></a>
 
                 <ul class="right hide-on-med-and-down">
-                    {% for item in site.data.nav %}
-                        <li {% if item.link == page.url %} class="active" {% endif %}>
-                            <a href="{{ item.link }}" title="{{ item.name }}" class="waves-effect waves-light {% if item.dropdown %}dropdown-button{% endif %} {% if item.highlight %}btn-large{% endif %}" {% if item.dropdown %}data-activates="portfolio"{% endif %}>{{ item.name }}</a>
-                        </li>
-                    {% endfor %}
-                </ul>
-
-                <ul id="portfolio" class="dropdown-content">
-                    {% for item in site.data.dropdown %}
-                        <li><a href="{{ item.link }}" title="{{ item.name }}" class="waves-effect">{{ item.name }}</a></li>
-                    {% endfor %}
+                    {% include nav.html %}
                 </ul>
             </div>
         </div>
     </nav>
 </div>
+
+<aside id="sideNav" class="side-nav">
+    <ul>
+        {% include nav.html %}
+    </ul>
+</aside>

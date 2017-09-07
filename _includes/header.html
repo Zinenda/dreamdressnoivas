@@ -2,9 +2,11 @@
     <div class="container">
         <div class="page-title center">
             <img src="{{ site.image }}" alt="{{ site.title }}">
-            <h1>{{ site.title }}</h1>
-            <h2>{{ site.description }}</h2>
+            <div class="hide-on-small-only">
+                <h1>{{ site.title }}</h1>
+                <h2>{{ site.description }}</h2>
+            </div>
         </div>
-        {% include cta.html %}
+        {% include sub-form.html %}
     </div>
 </header>

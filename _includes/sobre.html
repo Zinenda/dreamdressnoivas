@@ -1,11 +1,33 @@
-<section class="section">
+<section id="sobre" class="section scrollspy">
     <div class="container">
-        <div class="cent">
-            <p class="flow-text">
-                    É um pacote para de websites criado para empresas
-                    iniciantes que não podem investir massas de dinheiro para websites dinâmicos, 
-                    todavia querem ter presença online
-            </p>
+        <div class="center">
+            <i class="fa fa-5x fa-user"></i>
+            <h2 class="center-align">{{ site.first_title }}</h2>
+            <br><br><br>
+            
+            <div class="row">
+                <section class="col s12">
+                    <ul class="tabs">
+                        <li class="tab col s4">
+                            <a href="#quem_somos" title="Quem Somos"><i class="fa fa-3x fa-users"></i></a>
+                        </li>
+                        <li class="tab col s4">
+                            <a href="#visao" title="Visão"><i class="fa fa-3x fa-eye"></i></a>
+                        </li>
+                        <li class="tab col s4">
+                            <a href="#missao" title="Missão"><i class="fa fa-3x fa-handshake-o"></i></a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
         </div>
+
+        {% include tab-quem_somos.html %}
+
+        {% include tab-visao.html %}
+
+        {% include tab-missao.html %}
     </div>
 </section>
+
+<section id="parallax1" class="section"></section>

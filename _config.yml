@@ -47,13 +47,20 @@ js_dir: /assets/js
 image: /assets/img/logotype.svg
 logo: /assets/img/logo.svg
 
-first_parallax: /assets/img/first_parallax.jpg
-second_parallax: /assets/img/second_parallax.jpg
-thirth_parallax: /assets/img/thirth_parallax.jpg
+first_title: "Sobre"
+first_description: "Este o modelo exemplar para websites do Pacote startUP da IZItag.
+startUP é um pacote acessível que permitirá a empresas iniciantes e de pequeno porte possam ter uma presença online sem
+altos custos assim como grandes corporações. "
 
-first_title: "Quem Somos"
 second_title: "Serviços"
+second_description:
+
 thirth_title: "Portfólio"
+thirth_description:
 
 primary-color: "#cc3333"
 secondary-color: "#444"
+
+collections:
+  servicos:
+  portfolio:
