@@ -1,10 +1,10 @@
 /* 1. Colors
    ========================================================================== */
 
-$primary-color: rgba(204, 51, 51, 1) !default;
+$primary-color: #da1a5d !default;
 $primary-color-light: lighten($primary-color, 15%) !default;
 $primary-color-dark: darken($primary-color, 15%) !default;
-$secondary-color: #444 !default;
+$secondary-color: #da1af6 !default;
 $link-color: color("light-blue", "darken-1") !default;
 
 /* 4. Cards
@@ -12,7 +12,7 @@ $link-color: color("light-blue", "darken-1") !default;
 
 $card-padding: 20px !default;
 $card-bg-color: #fff !default;
-$card-link-color: #FF931E !default;
+$card-link-color: #d81b60 !default;
 $card-link-color-light: lighten($card-link-color, 20%) !default;
 
 
@@ -41,7 +41,7 @@ $progress-bar-color: $secondary-color !default;
 /* 21. Footer
    ========================================================================== */
 
-$footer-bg-color: $secondary-color !default;
+$footer-bg-color: $primary-color !default;
 
 // Text Inputs + Textarea
 $input-height: 3rem !default;

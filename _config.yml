@@ -1,24 +1,7 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
-
-title: StartUp
-email: info@izitag.site
-description: "Modelo de websites do Pacote StartUP da IZItag"
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+title: Dream Dress Noivas
+email: info@dreamdressnoiva.com
+description: "Realizando Sonhos"
+url: "https://dreamdressnoiva.com"
 author: Ivo Zinenda
 
 # Build settings
@@ -31,18 +14,16 @@ plugins:
   - hawkins
   - jekyll-autolink_email
 
-analytics: UA-81555401-1
+analytics: 
 
 exclude:
    - bower_components
+   - node_modules
 
 # Assets
 sass:
   sass_dir: assets/_sass
   style: compressed
-
-img_dir: /assets/img
-js_dir: /assets/js
 
 image: /assets/img/logotype.svg
 logo: /assets/img/logo.svg
@@ -50,7 +31,7 @@ logo: /assets/img/logo.svg
 first_title: "Sobre"
 first_description: "Este o modelo exemplar para websites do Pacote startUP da IZItag.
 startUP é um pacote acessível que permitirá a empresas iniciantes e de pequeno porte possam ter uma presença online sem
-altos custos assim como grandes corporações. "
+altos custos assim como grandes corporações"
 
 second_title: "Serviços"
 second_description:
