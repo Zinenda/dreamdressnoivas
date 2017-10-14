@@ -1,19 +1,19 @@
 # Facebook
-- link: https://facebook.com/tagizi
-  name: facebook
+- link: https://facebook.com/dreamnoivass
+  icon: facebook
+  title: Facebook
 
-# Twitter
-- link: https://twitter.com/imaz_3g
-  name: twitter
+# Messenger
+- link: https://m.me/dreamnoivass
+  icon: facebook-official
+  title: Messenger
 
 # Instagram
-- link: https://instagram.com/izinenda
-  name: instagram
-
-# Behance
-- link: https://behance.com/izinenda5eb7
-  name: behance
+- link: https://instagram.com/
+  icon: instagram
+  title: Instagram
 
 # Email
 - link: mailto:info@izitag.site
-  name: envelope
+  title: Email
+  icon: envelope

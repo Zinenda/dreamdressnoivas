@@ -6,15 +6,14 @@
   name: Serviços
   icon: tasks
 
+- link: "#produtos"
+  name: Produtos
+  icon: shopping-bag
+
 - link: "#portfolio"
   name: Portfólio
   icon: folder
 
-- link: "#opnioes"
-  name: Opniões
-  icon: comment
-
-- link: "mailto:info@izitag.site"
+- link: "mailto:info@dreamdressnoiva.com"
   name: Contactos
   icon: envelope
-  highlight: true

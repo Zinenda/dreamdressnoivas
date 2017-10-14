@@ -28,20 +28,8 @@ sass:
 image: /assets/img/logotype.svg
 logo: /assets/img/logo.svg
 
-first_title: "Sobre"
-first_description: "Este o modelo exemplar para websites do Pacote startUP da IZItag.
-startUP é um pacote acessível que permitirá a empresas iniciantes e de pequeno porte possam ter uma presença online sem
-altos custos assim como grandes corporações"
-
-second_title: "Serviços"
-second_description:
-
-thirth_title: "Portfólio"
-thirth_description:
-
-primary-color: "#cc3333"
-secondary-color: "#444"
-
 collections:
+  sobre:
   servicos:
   portfolio:
+  productos:
