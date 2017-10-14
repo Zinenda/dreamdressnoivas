@@ -5,12 +5,22 @@
             <h2>Productos</h2>
 
             <div class="row">
-                {% for item in site.productos limit: 3 %}
-                    <div class="co s12 l4">
-                        <figure>
-                            <img src="{{ item.image }}" alt="{{ item.title }}">
-                            <figcaption>{{ item.title }}</figcaption>
-                        </figure>
+                {% for item in site.productos %}
+                    <div class="col s12 l4">
+                        <div class="card medium hoverable">
+                            <div class="card-image">
+                                <img src="{{ item.image }}" alt="{{ item.title }}" class="materialboxed" data-caption="{{ item.title }} a partir de {{ item.price }} MZN">
+                                <span class="card-title"><strong>{{ item.title }}</strong></span>
+                            </div>
+
+                            <div class="card-content">
+                                <p>A partir de <br> {{ item.price }}</p>
+                            </div>
+
+                            <div class="card-action">
+                                <a href="{{ item.url }}" class="btn waves-effect waves-light">Veja Mais</a>
+                            </div>
+                        </div>
                     </div>
                 {% endfor %}
             </div>
