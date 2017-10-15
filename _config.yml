@@ -33,3 +33,14 @@ collections:
   servicos:
   portfolio:
   productos:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      image: ""
+      price:
+      description:
+      type: productos
+    values:
+      layout: page

@@ -1,0 +1,123 @@
+---
+layout: default
+---
+
+<header class="parallax-container hide-on-small-only">
+    <h1 class="center-align white-text">{{ page.title }}</h1>
+    <div class="parallax">
+        <img src="{{ page.image }}" alt="{{ page.title }}">
+    </div>
+</header>
+
+<section class="section">
+    <section class="row">
+        {% if page.title == "Acessórios" %}
+            {% for item in site.acessorios %}
+                <div class="col s12 l6">
+                    <img src="{{ item.image }}" alt="{{ item.title }}">
+                    <div class="section-title">
+                        <h2>{{ item.title }}</h2>
+                        <h3>A Partir de {{ item.price }} MZN</h3>
+                    </div>
+                </div>
+
+                <div class="col s12 l6">
+                    <div class="center">
+                        <p class="flow-text">{{ item.description }}</p>
+                        <a href="mailto:{{ site.email }}" title="Contacte-nos" class="btn-large waves-effect waves-light"><i class="fa fa-envelope"></i> Contacte-nos</a>
+                    </div>
+                </div>
+            {% endfor %}
+
+            {% elsif page.title == "Calçados" %}
+                {% for item in site.calcados %}
+                    <div class="col s12 l6">
+                        <img src="{{ item.image }}" alt="{{ item.title }}">
+                        <div class="section-title">
+                            <h2>{{ item.title }}</h2>
+                            <h3>A Partir de {{ item.price }} MZN</h3>
+                        </div>
+                    </div>
+
+                    <div class="col s12 l6">
+                        <div class="center">
+                            <p class="flow-text">{{ item.descrption }}</p>
+                            <a href="mailto:{{ site.email }}" title="Contacte-nos" class="btn-large waves-effect waves-light"><i class="fa fa-envelope"></i> Contacte-nos</a>
+                        </div>
+                    </div>
+                {% endfor %}
+
+            {% elsif page.title == "Decoração" %}
+                {% for item in site.decoracao %}
+                    <div class="col s12 l6">
+                        <img src="{{ item.image }}" alt="{{ item.title }}">
+                        <div class="section-title">
+                            <h2>{{ item.title }}</h2>
+                            <h3>A Partir de {{ item.price }} MZN</h3>
+                        </div>
+                    </div>
+
+                    <div class="col s12 l6">
+                        <div class="center">
+                            <p class="flow-text">{{ item.descrption }}</p>
+                            <a href="mailto:{{ site.email }}" title="Contacte-nos" class="btn-large waves-effect waves-light"><i class="fa fa-envelope"></i> Contacte-nos</a>
+                        </div>
+                    </div>
+                {% endfor %}
+
+            {% elsif page.title == "Fatos de Noivos" %}
+                {% for item in site.fatos %}
+                    <div class="col s12 l6">
+                        <img src="{{ item.image }}" alt="{{ item.title }}">
+                        <div class="section-title">
+                            <h2>{{ item.title }}</h2>
+                            <h3>A Partir de {{ item.price }} MZN</h3>
+                        </div>
+                    </div>
+
+                    <div class="col s12 l6">
+                        <div class="center">
+                            <p class="flow-text">{{ item.descrption }}</p>
+                            <a href="mailto:{{ site.email }}" title="Contacte-nos" class="btn-large waves-effect waves-light"><i class="fa fa-envelope"></i> Contacte-nos</a>
+                        </div>
+                    </div>
+                {% endfor %}
+
+            {% elsif page.title == "Livraria" %}
+                {% for item in site.livraria %}
+                    <div class="col s12 l6">
+                        <img src="{{ item.image }}" alt="{{ item.title }}">
+                        <div class="section-title">
+                            <h2>{{ item.title }}</h2>
+                            <h3>A Partir de {{ item.price }} MZN</h3>
+                        </div>
+                    </div>
+
+                    <div class="col s12 l6">
+                        <div class="center">
+                            <p class="flow-text">{{ item.descrption }}</p>
+                            <a href="mailto:{{ site.email }}" title="Contacte-nos" class="btn-large waves-effect waves-light"><i class="fa fa-envelope"></i> Contacte-nos</a>
+                        </div>
+                    </div>
+                {% endfor %}
+
+            {% elsif page.title == "Vestidos de Noivas & Damas" %}
+                {% for item in site.vestidos %}
+                    <div class="col s12 l6">
+                        <img src="{{ item.image }}" alt="{{ item.title }}">
+                        <div class="section-title">
+                            <h2>{{ item.title }}</h2>
+                            <h3>A Partir de {{ item.price }} MZN</h3>
+                        </div>
+                    </div>
+
+                    <div class="col s12 l6">
+                        <div class="center">
+                            <p class="flow-text">{{ item.descrption }}</p>
+                            <a href="mailto:{{ site.email }}" title="Contacte-nos" class="btn-large waves-effect waves-light"><i class="fa fa-envelope"></i> Contacte-nos</a>
+                        </div>
+                    </div>
+                {% endfor %}
+        {% endif %}
+    </section>
+</section>
