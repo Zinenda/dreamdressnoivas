@@ -4,6 +4,8 @@ description: "Realizando Sonhos"
 url: "https://dreamdressnoiva.com"
 author: Ivo Zinenda
 
+sobre: "A Dream Dress Noivas é uma distribuidora nacional (moçambicana) de artigos para casamentos, desde vestidos, fatos e vários acessórios. Confie na Dream Dress Noivas, porque a sua satisfação também é a nossa."
+
 # Build settings
 markdown: kramdown
 
@@ -25,8 +27,8 @@ sass:
   sass_dir: assets/_sass
   style: compressed
 
-image: /assets/img/logotype.svg
-logo: /assets/img/logo.svg
+image: /assets/img/logotipo/logo.svg
+logo: /assets/img/logotipo/logotype.svg
 
 collections:
   sobre:

@@ -1,6 +1,7 @@
 - link: "#sobre"
   name: Sobre
   icon: user
+  highlight: true
 
 - link: "#servicos"
   name: Serviços
