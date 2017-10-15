@@ -13,11 +13,6 @@ fields:
   type: text
   hidden: false
   default: ''
-- name: image
-  label: Image
-  type: text
-  hidden: false
-  default: ''
 - name: price
   label: Price
   type: text
@@ -33,6 +28,9 @@ fields:
   type: datetime
   hidden: false
   default: ''
+- type: file
+  name: image
+  label: Image
 - name: layout
   label: Layout
   type: text
