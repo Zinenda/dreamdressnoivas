@@ -1,4 +1,6 @@
 ---
+pages:
+- _portfolio/vestidos-1.md
 hide_body: false
 fields:
 - type: text
