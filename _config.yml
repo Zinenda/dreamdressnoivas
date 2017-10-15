@@ -32,6 +32,7 @@ collections:
   sobre:
   servicos:
   portfolio:
+    output: true
   productos:
     output: true
 
@@ -44,3 +45,11 @@ defaults:
       type: productos
     values:
       layout: page
+
+defaults:
+  - scope:
+      path: ""
+      images: ""
+      type: portfolio
+    values:
+      layout: portfolio

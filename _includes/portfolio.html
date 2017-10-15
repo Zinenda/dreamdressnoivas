@@ -5,11 +5,11 @@
         </div>
         <br><br><br>
         <div class="row">
-            {% for item in site.portfolio %}
+            {% for item in site.portfolio.vestidos %}
                 <div class="col s12 l4">
                     <div class="card hoverable">
                         <div class="card-image">
-                            <img src="{{ item.image_small }}" srcset="{{ item.image_small }} 1x, {{ item.image_medium }} 2x, {{ item.image_large }} 3x" alt="{{ ite.title }}" data-caption="{{ item.title }}" class="materialboxed">
+                            <img src="{{ item.images }}" alt="{{ ite.title }}" data-caption="{{ item.title }}" class="materialboxed">
                             <span class="card-title">{{ item.title }}</span>
                         </div>
                     </div>
