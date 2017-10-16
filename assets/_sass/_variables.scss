@@ -1,10 +1,10 @@
 /* 1. Colors
    ========================================================================== */
 
-$primary-color: #da1a5d !default;
+$primary-color: #ff4081 !default;
 $primary-color-light: lighten($primary-color, 15%) !default;
 $primary-color-dark: darken($primary-color, 15%) !default;
-$secondary-color: #da1af6 !default;
+$secondary-color: #ff80ab !default;
 $link-color: $secondary-color !default;
 
 /* 4. Cards
@@ -12,7 +12,7 @@ $link-color: $secondary-color !default;
 
 $card-padding: 20px !default;
 $card-bg-color: #fff !default;
-$card-link-color: #d81b60 !default;
+$card-link-color: #ff80ab !default;
 $card-link-color-light: lighten($card-link-color, 20%) !default;
 
 

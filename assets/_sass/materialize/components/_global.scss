@@ -339,7 +339,9 @@ ul.staggered-list li {
 .page-footer {
   padding-top: 20px;
   color: $footer-font-color;
-  background-color: $footer-bg-color;
+  background: $primary-color;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, $secondary-color, $primary-color);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, $secondary-color, $primary-color); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   .footer-copyright {
     overflow: hidden;
