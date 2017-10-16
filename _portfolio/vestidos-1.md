@@ -1,5 +1,4 @@
 ---
-title: vestidos
 date: 2017-10-15 17:28:41 +0000
 images:
 - "/uploads/2017/10/16/37.jpg"
@@ -39,4 +38,6 @@ images:
 - "/uploads/2017/10/15/3.jpg"
 - "/uploads/2017/10/15/2.jpg"
 - "/uploads/2017/10/15/1.jpg"
+title: vestidos
+image: "/uploads/2017/10/16/25-1.jpg"
 ---
