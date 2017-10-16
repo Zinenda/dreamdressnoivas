@@ -1,8 +1,3 @@
-- link: "#sobre"
-  name: Sobre
-  icon: user
-  highlight: true
-
 - link: "#servicos"
   name: Serviços
   icon: tasks
@@ -14,6 +9,11 @@
 - link: "#portfolio"
   name: Portfólio
   icon: folder
+
+- link: "#sobre"
+  name: Sobre
+  icon: user
+  highlight: true
 
 - link: "mailto:info@dreamdressnoiva.com"
   name: Contactos
