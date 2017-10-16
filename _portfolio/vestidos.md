@@ -38,6 +38,6 @@ images:
 - "/uploads/2017/10/15/3.jpg"
 - "/uploads/2017/10/15/2.jpg"
 - "/uploads/2017/10/15/1.jpg"
-title: vestidos
+title: Vestidos
 image: "/uploads/2017/10/16/25-1.jpg"
 ---
