@@ -10,6 +10,10 @@
   name: Portfólio
   icon: folder
 
+- link: "#localizacao"
+  name: Localização
+  icon: map-marker
+
 - link: "#sobre"
   name: Sobre
   icon: user

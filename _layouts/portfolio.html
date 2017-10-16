@@ -2,16 +2,6 @@
 layout: default
 ---
 
-<header class="slider hide-on-small-only">
-    <ul class="slides">
-        {% for item in page.images limit: 3 %}
-            <li>
-                <img src="{{ item }}" alt="{{ photo.title }}">
-            </li>
-        {% endfor %}
-    </ul>
-</header>
-
 <section class="section">
     <div class="row">
         <div id="masonry-grid">
