@@ -33,8 +33,11 @@ collections:
   servicos:
   portfolio:
     output: true
-  productos:
-    output: true
+  vestidos_noivas:
+  vestidos_cerimonias:
+  fatos_noivos:
+  calcados:
+  acessorios:
 
 defaults:
   - scope:
@@ -48,7 +51,7 @@ defaults:
 
 defaults:
   - scope:
-      path: ""
+      image: ""
       images: ""
       type: portfolio
     values:

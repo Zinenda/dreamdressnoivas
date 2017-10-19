@@ -1,0 +1,32 @@
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <h2 class="center-align">Vestidos Cerimonias</h2>
+        </div>
+
+        <div class="row">
+            {% for product in site.vestidos_cerimonias limit: 3 %}
+                <div class="col s12 l4">
+                    <div class="card hoverable center">
+                        <div class="card-image">
+                            <img src="{{ product.image }}" alt="{{ product.title }}">
+                        </div>
+                        <div class="card-content">
+                            <h3>{{ product.title }}</h3>
+                            <h4>{{ product.price }} MZN</h4>
+                        </div>
+                        <div class="card-action">
+                            <a href="mailto:{{ site.email }}" class="btn-large waves-effect waves-light" title="Encomende Já!"><i class="fa fa-shopping-cart"></i> Encomende Já!</a>
+                        </div>
+                    </div>
+                </div>  
+            {% endfor %}
+        </div>
+
+        <div class="row">
+            <div class="center">
+                <a href="/vestidos_cerimonias" class="btn-large waves-effect waves-light">Veja Mais</a>
+            </div>
+        </div>
+    </div>
+</section>
