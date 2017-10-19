@@ -1,18 +1,22 @@
-- link: "#servicos"
-  name: Serviços
-  icon: tasks
+- link: /vestidos
+  name: Vestidos de Noivas
+  icon: female
 
-- link: "#produtos"
-  name: Produtos
-  icon: shopping-bag
+- link: /fatos
+  name: Fatos de Noivas
+  icon: male
 
-- link: "#portfolio"
-  name: Portfólio
-  icon: folder
+- link: /acessorios
+  name: Acessórios
+  icon: diamond
 
-- link: "#localizacao"
-  name: Localização
-  icon: map-marker
+- link: /calcados
+  name: Calçados
+  icon: 
+
+- link: /vestidos_cerimonias
+  name: Vestidos Cerimoniais
+  icon: 
 
 - link: "#sobre"
   name: Sobre
