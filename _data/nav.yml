@@ -3,7 +3,7 @@
   icon: female
 
 - link: /fatos
-  name: Fatos de Noivas
+  name: Fatos de Noivos
   icon: male
 
 - link: /acessorios
@@ -15,10 +15,6 @@
   icon: 
 
 - link: /vestidos_cerimonias
-  name: Vestidos Cerimoniais
-  icon: 
-
-- link: /portfolio/vestidos
   name: Vestidos Cerimoniais
   icon: 
 

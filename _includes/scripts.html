@@ -1,10 +1,19 @@
 <script src="/assets/js/jquery.min.js" defer></script>
 <script src="/assets/js/materialize.min.js" defer></script>
+<script src="/assets/js/slick.min.js" defer></script>
 <script src="/assets/js/main.min.js" defer></script>
 
 {% if page.layout == "portfolio" %}
     <script src="/assets/js/masonry.pkgd.min.js" defer></script>
     <script src="/assets/js/init.js" defer></script>
 {% endif %}
+
+<script>
+    $(document).ready(function(){
+      $('.slicker').slick({
+        setting-name: setting-value
+      });
+    });
+</script>
 
 {% include ga.html %}
