@@ -1,6 +1,6 @@
 ---
 layout: products
-title: Vestido de Cereia
+title: Vestido de Sereia
 date: 2017-10-25 00:00:00 +0000
 price: 35000
 description: Vestido de Cereia, parecido com cereia compre e sinta se uma cereia :D
