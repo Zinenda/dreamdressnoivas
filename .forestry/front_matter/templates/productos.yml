@@ -1,11 +1,6 @@
 ---
 pages:
-- _productos/vestidos.md
-- _productos/livraria.md
-- _productos/fatos.md
-- _productos/decoracao.md
-- _productos/calcados.md
-- _productos/acessorios.md
+- _acessorios/tacas.md
 hide_body: false
 fields:
 - name: title
