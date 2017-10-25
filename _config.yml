@@ -1,7 +1,7 @@
 title: Dream Dress Noivas
 email: info@dreamdressnoiva.com
 description: "Realizando Sonhos"
-url: "https://dreamdressnoiva.com"
+url: "http://dreamdressnoiva.com"
 author: Ivo Zinenda
 
 # Build settings
@@ -19,6 +19,9 @@ analytics:
 exclude:
    - bower_components
    - node_modules
+
+include:
+  - _pages
 
 # Assets
 sass:
@@ -47,7 +50,7 @@ defaults:
       description:
       type: productos
     values:
-      layout: page
+      layout: products
 
 defaults:
   - scope:

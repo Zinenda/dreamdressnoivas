@@ -1,0 +1,30 @@
+---
+layout: products
+title: Acessórios
+image:
+---
+
+{% for item in site.acessorios %}
+    <div class="col s12 l4">
+        <div class="card medium hoverable sticky-action center">
+            <div class="card-image">
+                <img src="{{ item.image }}" alt="{{ item.title }}" class="materialboxed waves-effect waves-block waves-light" data-caption="{{ item.title }}">
+                <a class="btn-floating btn-large halfway-fab waves-effect waves-circle waves-light activator"><i class="fa fa-plus"></i></a>
+            </div>
+            <div class="card-content">
+                <h3>{{ item.title }}</h3>
+                <h4>{{ item.price }}</h4>
+            </div>
+            <div class="card-action">
+                <button class="btn-large">
+                    <i class="fa fa-shopping-cart"></i> Compre Já!
+                </button>
+            </div>
+            <div class="card-reveal">
+                <span class="card-title">{{ item.title }} <i class="fa fa-close"></i></span>
+                <hr>
+                <p>{{ item.description }}</p>
+            </div>
+        </div>
+    </div>
+{% endfor %}
