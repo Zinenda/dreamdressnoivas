@@ -12,7 +12,7 @@ body {
         family: 'Lato', sans-serif;
         size: 100%;
     }
-    color: $primary-color;
+    color: #444;
 }
 
 header, main, footer, nav {
@@ -43,20 +43,6 @@ footer {
 
 .inline-list {
     display: inline-flex;
-}
-
-.parallax {
-    height: 100%;
-}
-
-.card-title {
-    text-shadow: 2px -2px #444;
-}
-
-.blog {
-    h1, h2, h3, h4, h5, h6 {
-        text-align: center;
-    }
 }
 
 .primary-color {
@@ -111,42 +97,6 @@ footer {
     }
 }
 
-#parallax1 {
-    background: {
-        image: url(assets/img/parallax/first_parallax.jpg);
-        size: cover;
-        repeat: no-repeat;
-        attachment: fixed;
-        position: center;
-    }
-
-    height: 50vh;
-}
-
-
-#parallax2 {
-    background: {
-        image: url(assets/img/parallax/second_parallax.jpg);
-        size: cover;
-        repeat: no-repeat;
-        attachment: fixed;
-        position: center;
-    }
-
-    height: 50vh;
-}
-
-#parallax3 {
-    background: {
-        image: url(assets/img/parallax/thirth_portfolio.jpg);
-        size: cover;
-        repeat: no-repeat;
-        attachment: fixed;
-        position: center;
-    }
-
-    height: 50vh;
-}
 
 // IMPORTED
 @import 

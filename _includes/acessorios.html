@@ -7,16 +7,19 @@
         <div class="row">
             {% for product in site.acessorios limit: 3 %}
                 <div class="slicker col s12 l4">
-                    <div class="card hoverable center">
+                    <div class="card hoverable center sticky-action grey-text lighten-4">
                         <div class="card-image">
                             <img src="{{ product.image }}" alt="{{ product.title }}">
                         </div>
                         <div class="card-content">
-                            <h3>{{ product.title }}</h3>
-                            <h4>{{ product.price }} MZN</h4>
+                            <strong>{{ product.title }}</strong> <em>{{ product.price }} MZN</em>
                         </div>
                         <div class="card-action">
                             <a href="mailto:{{ site.email }}" class="btn-large waves-effect waves-light" title="Encomende Já!"><i class="fa fa-shopping-cart"></i> Encomende Já!</a>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title">{{ product.title }}</span>
+                            {{ product.description }}
                         </div>
                     </div>
                 </div>  
