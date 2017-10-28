@@ -8,8 +8,7 @@
         <div class="row">
             <div class="owl-carousel owl-theme owl-nav center">
                 {% for item in site.vestidos_noivas %}
-                    <div>
-                        <div class="card medium sticky-action hoverable grey-text text-darken-4">
+                    <div class="card medium sticky-action hoverable grey-text text-darken-4">
                             <div class="card-image">
                                 <img src="{{ item.image }}" alt="{{ item.title }}">
                             </div>
@@ -24,7 +23,6 @@
                                 <p>{{ item.price }} MZN</p>
                                 <p>{{ item.description }}</p>
                             </div>
-                        </div>
                     </div>
                 {% endfor %}
             </div>
