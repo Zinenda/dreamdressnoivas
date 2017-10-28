@@ -27,6 +27,6 @@
   "dependencies": {
     "materialize": "^0.100.1",
     "font-awesome": "^4.7.0",
-    "bigtext": "^1.0.1"
+    "owl.carousel": "^2.2.1"
   }
 }
