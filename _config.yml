@@ -44,16 +44,18 @@ collections:
 
 defaults:
   - scope:
-      path: ""
-      image: ""
-      price:
-      description:
-      type: productos
-    values:
-      layout: products
+    path: ""
+    type: products
+  values:
+    title: ""
+    image: ""
+    price: 0.0
+    sku: ""
+    weight: 0.0
+    layout: products
 
-defaults:
   - scope:
+      path: ""
       image: ""
       images: ""
       type: portfolio
