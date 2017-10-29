@@ -5,8 +5,9 @@
     "name": "{{ site.title }}",
     "short_name": "DDN",
     "icons": [{
-          "src": "assets/img/logotipo/logotype.svg",
-          "type": "image/svg"
+          "src": "assets/img/favicon/manifest-icon.png",
+          "type": "image/png",
+          "sizes": "192x192"
         }],
     "start_url": "/index.html?homescreen=1",
     "display": "standalone",
