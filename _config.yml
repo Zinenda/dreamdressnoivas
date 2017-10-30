@@ -20,9 +20,6 @@ exclude:
    - bower_components
    - node_modules
 
-include:
-  - _pages
-
 # Assets
 sass:
   sass_dir: assets/_sass
@@ -41,9 +38,10 @@ collections:
   fatos_noivos:
   calcados:
   acessorios:
+  slider:
 
 defaults:
-  - scope:
+- scope:
     path: ""
     type: products
   values:
@@ -54,10 +52,20 @@ defaults:
     weight: 0.0
     layout: products
 
-  - scope:
-      path: ""
-      image: ""
-      images: ""
-      type: portfolio
-    values:
-      layout: portfolio
+- scope:
+    path: ""
+    type: portfolio
+  values:
+    title:
+    image: ""
+    images: ""
+    layout: portfolio
+
+- scope:
+    path: ""
+    image: ""
+    type: slider
+  values:
+    title: ""
+    image: ""
+    min_price: 0.0
