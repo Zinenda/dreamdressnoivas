@@ -7,10 +7,10 @@ fields:
   hidden: false
   default: ''
 - name: price
-  label: Price
+  label: Preço
   type: text
   hidden: false
-  default: 0
+  default: '0'
 - name: sku
   label: Referencia
   type: text
