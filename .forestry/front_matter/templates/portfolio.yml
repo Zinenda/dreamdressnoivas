@@ -5,10 +5,11 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: Title
+  label: Titulo
 - type: file
-  label: image
+  label: imagem
   name: image
 - type: image_gallery
   name: images
-  label: Images
+  label: Imagens
+  description: Insira várias imagens nesse campo
