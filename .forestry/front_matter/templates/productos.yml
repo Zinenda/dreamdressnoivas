@@ -1,12 +1,12 @@
 ---
 pages:
-- _vestidos_noivas/serei-pura.md
-- _vestidos_noivas/vestido-brilhente.md
-- _vestidos_noivas/floariana.md
-- _vestidos_noivas/cereia-justo.md
-- _vestidos_noivas/vestido-tradiconal.md
-- _vestidos_noivas/vestido-de-cereia.md
 - _acessorios/tacas.md
+- _vestidos_noivas/vestido-de-cereia.md
+- _vestidos_noivas/vestido-tradiconal.md
+- _vestidos_noivas/cereia-justo.md
+- _vestidos_noivas/floariana.md
+- _vestidos_noivas/vestido-brilhente.md
+- _vestidos_noivas/serei-pura.md
 hide_body: false
 fields:
 - name: title
