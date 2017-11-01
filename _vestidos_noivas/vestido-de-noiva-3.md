@@ -1,6 +1,6 @@
 ---
 title: Vestido de Noiva
-image: ''
+image: "/uploads/2017/10/16/11.jpg"
 price: 0
 sku: ''
 weight: 0
