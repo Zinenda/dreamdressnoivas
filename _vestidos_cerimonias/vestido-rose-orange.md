@@ -1,6 +1,6 @@
 ---
 title: Vestido Rose & Orange
-image: ''
+image: "/uploads/2017/11/01/pr17.jpg"
 price: 0
 sku: ''
 weight: 0
