@@ -1,6 +1,6 @@
 ---
 title: Vestido Branco para Daminhas
-image: ''
+image: "/uploads/2017/11/01/pr5.jpg"
 price: 0
 sku: ''
 weight: 0
