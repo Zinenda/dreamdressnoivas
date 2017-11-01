@@ -1,6 +1,6 @@
 ---
 title: Pena de Escrita
-image: "/uploads/2017/11/01/ac3.jpg"
+image: ''
 price: 0
 sku: ''
 weight: 0
