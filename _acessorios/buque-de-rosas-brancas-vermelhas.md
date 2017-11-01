@@ -1,6 +1,6 @@
 ---
 title: Buquê de rosas brancas & vermelhas
-image: ''
+image: "/uploads/2017/11/01/bq57.jpg"
 price: 0
 sku: ''
 weight: 0
