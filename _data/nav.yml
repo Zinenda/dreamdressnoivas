@@ -10,13 +10,13 @@
   name: Acessórios
   icon: diamond
 
-- link: /calcados
-  name: Calçados
-  icon: 
-
 - link: /vestidos_cerimonias
   name: Vestidos Cerimoniais
   icon:
+
+- link: /diversos
+  name: Diversos
+  icon: 
 
 - link: /portfolio/vestidos
   name: Galeria de Vestidos

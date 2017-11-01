@@ -2,10 +2,18 @@
 layout: default
 ---
 
-<header class="parallax-container hide-on-small-only">
-    <h1 class="center-align white-text">{{ page.title }}</h1>
-    <div class="parallax">
-        <img src="{{ page.image }}" alt="{{ page.title }}">
+<header class="primary-color white-text">
+    <div class="container">
+        <div class="center">
+            <a href="/" title="{{ site.title }}">
+                <img src="/assets/img/logotipo/logotipo.svg" alt="{{ site.title }}" style="width: 300px;">
+            </a>
+            <br><br><br><br>
+            {% include social.html %}
+            <br>
+            <h1>{{ page.title }}</h1>
+
+        </div>
     </div>
 </header>
 

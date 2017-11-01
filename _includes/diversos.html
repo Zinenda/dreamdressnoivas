@@ -1,13 +1,13 @@
-<section class="section grey lighten-4">
+<section class="section">
     <div class="container">
         <div class="row">
             <h2 class="center-on-small-only">
-                <a href="/acessorios" title="Acessórios">Acessórios</a>
+                <a href="/diversos" title="Diversos Artigos">Diversos Artigos</a>
             </h2>
         </div>
         <div class="row">
             <div class="owl-carousel owl-theme owl-nav center">
-                {% for item in site.acessorios limit: 12  %}
+                {% for item in site.diversos limit: 12 %}
                     <div class="card medium sticky-action hoverable grey-text text-darken-4">
                             <div class="card-image">
                                 <img src="{{ item.image }}" alt="{{ item.title }}">
