@@ -1,6 +1,6 @@
 ---
 title: Cestinho de coletas
-image: ''
+image: "/uploads/2017/11/01/ac11.jpg"
 price: 0
 sku: ''
 weight: 0
