@@ -1,6 +1,6 @@
 ---
 title: Fato Branco
-image: ''
+image: "/uploads/2017/11/01/ft4.jpg"
 price: 0
 sku: ''
 weight: 0
