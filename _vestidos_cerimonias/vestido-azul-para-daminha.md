@@ -1,6 +1,6 @@
 ---
 title: Vestido Azul para Daminha
-image: ''
+image: "/uploads/2017/11/01/pr60.jpg"
 price: 0
 sku: ''
 weight: 0
