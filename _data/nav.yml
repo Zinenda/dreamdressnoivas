@@ -16,6 +16,10 @@
 
 - link: /vestidos_cerimonias
   name: Vestidos Cerimoniais
+  icon:
+
+- link: /portfolio/vestidos
+  name: Galeria de Vestidos
   icon: 
 
 - link: "#sobre"
@@ -24,5 +28,5 @@
   highlight: true
 
 - link: "mailto:info@dreamdressnoiva.com"
-  name: Contactos
+  name: Contacto
   icon: envelope

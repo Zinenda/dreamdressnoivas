@@ -1,11 +1,11 @@
 <header class="slider hide-on-small-only">
     <ul class="slides">
-        {% for item in site.slider %}
+        {% for item in site.slider limit: 4 %}
             <li>
                 <img src="{{ item.image }}" alt="{{ item.title }}">
-                <div class="caption left">
+                <div class="caption left" style="text-shadow: 2px -2px #444;">
                     <h2>{{ item.title }}</h2>
-                    <h3>A partir de {{ item.mini_price }}</h3>
+                    <h3>A partir de {{ item.min_price }} MZN</h3>
                 </div>
             </li>
         {% endfor %}
