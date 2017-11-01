@@ -1,6 +1,6 @@
 ---
 title: Fatos de Noivo
-image: ''
+image: "/uploads/2017/11/01/ft1.jpg"
 price: 0
 sku: ''
 weight: 0
