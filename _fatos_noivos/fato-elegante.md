@@ -1,6 +1,6 @@
 ---
 title: Fato Elegante
-image: ''
+image: "/uploads/2017/11/01/ft11.jpg"
 price: 0
 sku: ''
 weight: 0
