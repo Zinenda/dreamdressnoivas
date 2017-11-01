@@ -1,6 +1,6 @@
 ---
 title: Vestido Rosa para Daminha
-image: ''
+image: "/uploads/2017/11/01/pr84.jpg"
 price: 0
 sku: ''
 weight: 0
