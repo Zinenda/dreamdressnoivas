@@ -1,6 +1,6 @@
 ---
 title: Duas Taças de Brinde
-image: ''
+image: "/uploads/2017/11/01/ac5.jpg"
 price: 0
 sku: ''
 weight: 0
