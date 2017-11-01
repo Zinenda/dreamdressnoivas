@@ -1,4 +1,6 @@
 ---
+pages:
+- _acessorios/conjunto-de-tacas.md
 hide_body: false
 fields:
 - name: title
