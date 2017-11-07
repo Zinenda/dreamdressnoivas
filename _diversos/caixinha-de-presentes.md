@@ -1,6 +1,6 @@
 ---
 title: Caixinha de presentes
-image: ''
+image: "/uploads/2017/11/07/cv32-1.jpg"
 price: 0
 sku: ''
 weight: 0
