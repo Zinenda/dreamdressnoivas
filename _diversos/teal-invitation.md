@@ -1,6 +1,6 @@
 ---
 title: Teal Invitation
-image: ''
+image: "/uploads/2017/11/07/cv1 - Copy.jpg"
 price: 0
 sku: ''
 weight: 0
