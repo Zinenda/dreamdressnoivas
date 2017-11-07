@@ -8,22 +8,7 @@
         <div class="row">
             <div class="owl-carousel owl-theme owl-nav center">
                 {% for item in site.diversos limit: 12 %}
-                    <div class="card medium sticky-action hoverable grey-text text-darken-4">
-                            <div class="card-image">
-                                <img src="{{ item.image }}" alt="{{ item.title }}">
-                            </div>
-                            <div class="card-content">
-                                <span class="card-title activator">{{ item.price }} MZN <i class="fa fa-ellipsis-v right"></i></span>
-                            </div>
-                            <div class="card-action">
-                                <a href="mailto:{{ site.email }}" title="Compre Já por {{ item.price }} MZN" class="btn-large waves-effect waves-light"><i class="fa fa-shopping-cart"></i> Compre Já</a>
-                            </div>
-                            <div class="card-reveal">
-                                <span class="card-title">{{ item.title }} <i class="fa fa-close right"></i></span>
-                                <p>{{ item.price }} MZN</p>
-                                <p>{{ item.description }}</p>
-                            </div>
-                    </div>
+                    {% include carousel-loop.html %}
                 {% endfor %}
             </div>
         </div>
