@@ -1,6 +1,6 @@
 ---
 title: Convite Teal
-image: ''
+image: "/uploads/2017/11/07/cv2 - Copy-1.jpg"
 price: 0
 sku: ''
 weight: 0
