@@ -1,9 +1,19 @@
 ---
 pages:
-- _vestidos_noivas/vestido-de-noiva-3.md
-- _vestidos_noivas/vestido-de-noiva-2.md
-- _vestidos_noivas/vestido-de-noiva-1.md
-- _vestidos_noivas/vestido-de-noiva.md
+- _diversos/chaveiro-apple.md
+- _acessorios/buque-sintetico-prata.md
+- _acessorios/buque-de-rosas-brancas-vermelhas.md
+- _acessorios/cestinho-de-coletas.md
+- _acessorios/jogo-de-tacas.md
+- _acessorios/duas-tacas-de-brinde.md
+- _acessorios/conjunto-de-tacas-facas.md
+- _acessorios/penas-de-assinatura.md
+- _fatos_noivos/fato-elegante.md
+- _fatos_noivos/fato-vermelho.md
+- _fatos_noivos/fato-branco.md
+- _fatos_noivos/fato-marrom.md
+- _fatos_noivos/fato-azul-escuro.md
+- _fatos_noivos/fatos-de-noivo.md
 - _vestidos_cerimonias/vestido-branco-para-daminhas.md
 - _vestidos_cerimonias/vestido-rose-orange.md
 - _vestidos_cerimonias/vestido-tinto-para-daminha.md
@@ -12,19 +22,10 @@ pages:
 - _vestidos_cerimonias/vestido-azul-para-daminha.md
 - _vestidos_cerimonias/vestido-rosa-para-daminha.md
 - _vestidos_cerimonias/vestido-para-daminha.md
-- _fatos_noivos/fato-elegante.md
-- _fatos_noivos/fato-vermelho.md
-- _fatos_noivos/fato-branco.md
-- _fatos_noivos/fato-marrom.md
-- _fatos_noivos/fato-azul-escuro.md
-- _fatos_noivos/fatos-de-noivo.md
-- _acessorios/buque-sintetico-prata.md
-- _acessorios/buque-de-rosas-brancas-vermelhas.md
-- _acessorios/cestinho-de-coletas.md
-- _acessorios/jogo-de-tacas.md
-- _acessorios/duas-tacas-de-brinde.md
-- _acessorios/conjunto-de-tacas-facas.md
-- _acessorios/penas-de-assinatura.md
+- _vestidos_noivas/vestido-de-noiva-3.md
+- _vestidos_noivas/vestido-de-noiva-2.md
+- _vestidos_noivas/vestido-de-noiva-1.md
+- _vestidos_noivas/vestido-de-noiva.md
 hide_body: false
 fields:
 - name: title
