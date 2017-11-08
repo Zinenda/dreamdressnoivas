@@ -1,9 +1,9 @@
 ---
 title: 'Bonifácio '
-image: ''
-price: 0
-sku: ''
-weight: 0
+image: "/uploads/2017/10/31/ft2.jpg"
+price: '15000.00'
+sku: Bonet
+weight: 1
 layout: products
 date: 2017-11-08 19:36:54 +0000
 ---
