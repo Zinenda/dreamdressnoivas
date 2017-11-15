@@ -7,7 +7,7 @@
         </div>
         <div class="row">
             <div class="owl-carousel owl-theme owl-nav center">
-                {% for item in site.acessorios limit: 12  %}
+                {% for item in site.acessorios reversed limit: 12  %}
                     {% include carousel-loop.html %}
                 {% endfor %}
             </div>

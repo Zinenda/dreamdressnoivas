@@ -4,6 +4,11 @@ title: Acessórios
 image:
 ---
 
-{% for item in site.acessorios %}
+{% for item in site.acessorios reversed %}
     {% include grid-loop.html %}
+
+    {% else %}
+    <div class="center">
+        <h3>Sem Produtos</h3>
+    </div>
 {% endfor %}

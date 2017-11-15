@@ -4,6 +4,11 @@ title: Calçados
 image:
 ---
 
-{% for item in site.calcados %}
+{% for item in site.calcados reversed %}
     {% include grid-loop.html %}
+    
+    {% else %}
+        <div class="center">
+            <h3>Sem Produtos</h3>
+        </div>
 {% endfor %}
