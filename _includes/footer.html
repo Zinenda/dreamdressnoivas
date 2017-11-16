@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col s12 l4">
-                <h3>Localize-nos</h3>
+                <h5>Localize-nos</h5>
                 
                 <ul>
                     <li>Av. Mao Tsé Tung nº 1490</li>
@@ -13,13 +13,13 @@
             </div>
 
             <div class="col s12 l4">
-                <h3>Contacte-nos</h3>
+                <h5>Contacte-nos</h5>
                 
                 {% include social.html %}
             </div>
 
             <div class="col s12 l4">
-                <h3>Menu</h3>
+                <h5>Menu</h5>
                 <ul>
                     {% for item in site.data.nav %}
                     <li {% if item.link == page.url %} class="active" {% endif %}>

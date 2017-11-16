@@ -1,12 +1,13 @@
-<header class="slider hide-on-small-only">
-    <ul class="slides">
-        {% for item in site.slider reversed limit: 4 %}
-            <li>
-                <img src="{{ item.image }}" alt="{{ item.title }}">
-            </li>
+<header class="secondary-color white-text">
+    <div class="container">
+        <div class="center">
+            <a href="/" title="{{ site.title }}">
+                <img src="/assets/img/logotipo/logotipo.svg" alt="{{ site.title }}" style="width: 300px;">
+            </a>
+            <br>
+            {% include social.html %}
+            <h3>{{ page.title }}</h3>
 
-            {% else %}
-                <h3 class="center">Não há fotos</h3>
-        {% endfor %}
-    </ul>
+        </div>
+    </div>
 </header>

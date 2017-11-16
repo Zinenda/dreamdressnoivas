@@ -1,12 +1,12 @@
-<div class="card sticky-action medium hoverable grey-text text-darken-4">
+<div class="card small sticky-action hoverable grey-text text-darken-4 center">
     <div class="card-image">
-        <img src="{{ item.image }}" alt="{{ item.title }}">
+        <img src="{{ item.image }}" alt="{{ item.title }}" width="640" height="480">
     </div>
     <div class="card-content">
         <span class="card-title activator">{{ item.price }} MZN <i class="fa fa-ellipsis-v right"></i></span>
     </div>
     <div class="card-action">
-        <a href="mailto:{{ site.email }}" class="btn-large waves-effect waves-light">COMPRE JÁ!</a>
+        <a href="mailto:{{ site.email }}" class="btn waves-effect waves-light">COMPRE JÁ!</a>
     </div>
     <div class="card-reveal">
         <span class="card-title">{{ item.title }} <i class="fa fa-close right"></i></span>

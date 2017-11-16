@@ -15,7 +15,7 @@ body {
     color: #444;
 }
 
-main, footer, nav {
+header, main, footer, nav {
     padding-left: 300px;
 }
 
@@ -76,27 +76,6 @@ footer {
 .secondary-color-text {
     color: $secondary-color;
 }
-
-.page-header {
-    background: {
-        image: url(assets/img/parallax/header.jpg);
-        size: cover;
-        repeat: no-repeat;
-        position: center;
-        attachment: fixed;
-    }
-
-    height: 100vh;
-
-    .page-title {
-        h1,
-        h2 {
-            text-transform: uppercase;
-            text-shadow: 2px -2px #444;
-        }
-    }
-}
-
 
 // IMPORTED
 @import 
