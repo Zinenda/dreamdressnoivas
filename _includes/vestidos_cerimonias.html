@@ -1,16 +1,17 @@
 <section class="section">
     <div class="container">
         <div class="row">
-            <h2 class="center-on-small-only">
+            <h4 class="center-on-small-only">
                 <a href="/vestidos_cerimonias" title="Vestidos de Cerimoniais">Vestidos de Cerimoniais</a>
-            </h2>
+            </h4>
         </div>
         <div class="row">
-            <div class="owl-carousel owl-theme owl-nav center">
-                {% for item in site.vestidos_cerimonias reversed limit: 12  %}
-                    {% include carousel-loop.html %}
-                {% endfor %}
-            </div>
+            {% for item in site.vestidos_cerimonias reversed limit: 3 %}
+                {% include grid-loop.html %}
+
+                {% else %}
+                    <h4>Sem produtos</h4>
+            {% endfor %}
         </div>
     </div>
 </section>
