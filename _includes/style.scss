@@ -15,12 +15,12 @@ body {
     color: #444;
 }
 
-header, main, footer, nav {
+main, footer, nav {
     padding-left: 300px;
 }
 
 @media only screen and (max-width: 992px) {
-    header, main, footer, nav {
+    main, footer, nav {
         padding-left: 0;
     }
 }

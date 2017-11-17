@@ -6,8 +6,10 @@ layout: compress
     {% include head.html %}
     
     <body id="top">
-        {% include navbar.html %}
-        {% include header.html %}
+        {% if page.layout != "products" %}
+            {% include navbar.html %}
+        {% endif %}
+        {% include sidenav.html %}
         <main class="animate-bottom">
             {{ content }}
             {% include about.html %}
